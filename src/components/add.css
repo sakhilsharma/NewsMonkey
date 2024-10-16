@@ -1,0 +1,16 @@
+.none {
+    position: relative;
+    padding-right: 15px; 
+    padding-left: 15px;  
+    flex: 0 0 auto;     
+    
+    width:33.33%;
+  }
+  
+@media (min-width:200px) and (max-width:1000px){
+    .none{
+        
+        width:100%;
+       
+    }
+}
