@@ -6,54 +6,55 @@ import Navbar from './components/Navbar.jsx';
 import  News  from './components/News.jsx';
 
 function App() {
+  const pageSize = 15;
   const router = createBrowserRouter([
     {
       path: "/",
       element: <>
-        <Navbar />< News key="sports" pageSize={5} country="us" category="sports" />
+        <Navbar />< News key="sports" pageSize={pageSize} country="us" category="sports" />
       </>
     },
     {
       path: "/business",
       element: <>
-        <Navbar />< News key="general" pageSize={5} country="us" category="business" />
+        <Navbar />< News key="general" pageSize={pageSize} country="us" category="business" />
       </>
     },
     {
       path: "/entertainment",
       element: <>
-        <Navbar /> < News key="entertainment" pageSize={5} country="us" category="entertainment" />
+        <Navbar /> < News key="entertainment" pageSize={pageSize} country="us" category="entertainment" />
       </>
     },
     {
       path: "/general",
       element: <>
-        <Navbar />< News key="general" pageSize={5} country="us" category="general" />
+        <Navbar />< News key="general" pageSize={pageSize} country="us" category="general" />
       
       </>
     },
     {
       path: "/health",
       element: <>
-        <Navbar />< News key="health" pageSize={5} country="us" category="health" />
+        <Navbar />< News key="health" pageSize={pageSize} country="us" category="health" />
       </>
     },
     {
       path: "/science",
       element: <>
-        <Navbar />< News key="science "pageSize={5} country="us" category="science" />
+        <Navbar />< News key="science "pageSize={pageSize} country="us" category="science" />
       </>
     },
     {
       path: "/sports",
       element: <>
-        <Navbar />< News key="sports" pageSize={5} country="us" category="sports" />
+        <Navbar />< News key="sports" pageSize={pageSize} country="us" category="sports" />
       </>
     },
     {
       path: "/technology",
       element: <>
-        <Navbar /> < News key="technology" pageSize={5} country="us" category="technology" />
+        <Navbar /> < News key="technology" pageSize={pageSize} country="us" category="technology" />
       </>
     },
 
